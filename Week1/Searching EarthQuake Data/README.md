@@ -6,7 +6,7 @@ For the following assignments, you will start with the files provided, using mos
 - The class EarthQuakeClient, which has been started for you and creates an EarthQuakeParser to read in an earthquake data file, creating an ArrayList of QuakeEntrys. You can test the program with the method createCSV to store an ArrayList of the earthquake data and print a CSV file. You will complete the methods that filter magnitude and distance in this class and add additional methods to it. 
 - The class ClosestQuakes, which has been started for you to find the ten closest quakes to a particular location. You will complete this method.
 
-** Assignment 1: Filtering by Magnitude and Distance**
+**Assignment 1: Filtering by Magnitude and Distance**
 
 In this assignment you will complete the program to filter earthquake data by magnitude and distance, which was described in this lesson in the videos “Coding a Magnitude Filter” and “Coding a Distance Filter.”
 Specifically, for this assignment, you will only modify one class, the EarthQuakeClient class:
@@ -15,7 +15,7 @@ Specifically, for this assignment, you will only modify one class, the EarthQuak
 - Write the method filterByDistanceFrom that has already been started for you. This method has three parameters, an ArrayList of type QuakeEntry named quakeData, a double named distMax, and a Location named from. This method should return an ArrayList of type QuakeEntry of all the earthquakes from quakeData that are less than distMax from the location from. Notice that we have already created an ArrayList named answer for you to store those earthquakes that satisfy this requirement
 - Modify the method closeToMe that has no parameters to call filterByDistance to print out the earthquakes within 1000 Kilometers to a specified city (such as Durham, NC). For each earthquake found, print the distance from the earthquake to the specified city, followed by the information about the city (use getInfo()). Currently this method reads data on earthquakes from a URL, stores a QuakeEntry for each earthquake read in the ArrayList named list, and prints out the number of earthquakes read in. It also gives the location for two cities, Durham, NC (35.988, -78.907) and Bridgeport, CA (38.17, -118.82). After making modifications, when you run your program on the file nov20quakedatasmall.atom for the city location Durham, NC, no earthquakes are found. But if you then run the program for the city location Bridgeport, CA, seven earthquakes are found, and you should get the output:
 
-** Assignment 2: Filtering by Depth **
+**Assignment 2: Filtering by Depth**
 
 In this assignment you will filter earthquakes by their depth, finding those earthquakes whose depth is between a minimum and maximum value. For more information on what the "depth" of an earthquake means, see the information here: http://earthquake.usgs.gov/learn/topics/seismology/determining_depth.php
 Specifically, for this assignment, you will add new methods to one class, the EarthQuakeClient class:
