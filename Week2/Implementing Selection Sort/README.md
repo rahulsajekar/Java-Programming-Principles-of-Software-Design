@@ -1,3 +1,4 @@
+#Programming Exercise: Implementing Selection Sort
 For the following assignments, you will start with the files provided, using most of the classes, and modifying only one of them.
 
 First there are several classes provided from the previous lesson that are unchanged:
