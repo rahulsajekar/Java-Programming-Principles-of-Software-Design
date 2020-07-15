@@ -1,0 +1,3 @@
+# Java Tools and Libraries for Everyone
+As you reach the end of this series, you may wish to extend your Java experience to tools beyond those provided here. This module will cover some of the Java basic information that is needed to program without BlueJ or the edu.duke library. After completing this module, you will be able to: (1) write a main method to start a Java program in any programming environment, (2) use the “static” keyword to modify fields, (3) find alternative editors to use with Java, (4) use exceptions to debug your program and make it more robust, and (5) reference Java libraries that are necessary to read files without the edu.duke library. 
+
