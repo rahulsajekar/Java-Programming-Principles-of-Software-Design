@@ -1,22 +1,26 @@
 # Week 4 Quiz
 
 1.What is the name of the method that starts a Java program?
+
 **Ans:** main
 
 2.What argument type should the method that starts a Java program take?
+
 **Ans:** an Array of String
 
 3.What effect comes from declaring a field "static"?
+
 **Ans:** There is only one copy of that field for the entire class, not one per instance.
 
 4.What effect comes from declaring a field "static"?
+
 **Ans:** To make an exception occur when the program detects a problematic circumstance that it cannot directly handle
 
 5.Creating a new socket, as with: 
 Socket s = new Socket(addr,port); 
 can throw an IOException according to the documentation of the java.net.Socket class.
 Which of the following structures is the best way to create a socket while handling the exception?
-**Ans:**
+**Ans:** 
 try {
     Socket s = new Socket(addr, port);
     //code that uses s     
@@ -26,7 +30,7 @@ catch(IOException ioe) {
 }
 
 6.In Java, how is the keyword "finally" used?
-**Ans:**In exception handling to specify code that should be executed regardless of whether an exception happened or not
+**Ans:** In exception handling to specify code that should be executed regardless of whether an exception happened or not
 
 7.If you wanted to read the contents of a file without using the edu.duke package, you might call Files.newBufferedReader.
 What would you pass into Files.newBufferedReader?
@@ -40,4 +44,4 @@ These capabilities are a great example of the benefits of which programming prin
 **Ans:**
 - Open/Closed Principle: the BufferedReader class is designed such that it can have its functionality expanded (to read from new data sources) without having to modify its code
 
--Abstraction: the BufferedReader class can work with any class that conforms to a specific interface, and does not need to know the details of how/where it reads data.
+- Abstraction: the BufferedReader class can work with any class that conforms to a specific interface, and does not need to know the details of how/where it reads data.
